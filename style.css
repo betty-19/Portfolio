@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -15,7 +14,6 @@ body {
 header {
     color: #fff;
     padding: 1rem 0;
-   
 }
 
 .navbar {
@@ -84,16 +82,15 @@ header {
 .home-text h1 {
     font-size: 2.3rem;
     margin-bottom: 1rem;
-    color:#fff;
-    -webkit-text-stroke: 0.1vw #383d52;
-    text-transform: uppercase;
+    color: #333;
+    /* -webkit-text-stroke: 0.1vw #383d52;
+    text-transform: uppercase; */
 }
 
 .home-text p {
     font-size: 1rem;
-    background: linear-gradient(130.08deg, #fa85bc, #fff);
-    border-radius:50px;
-
+    /* background: linear-gradient(130.08deg, #fa85bc, #fff); */
+    border-radius: 50px;
 }
 
 .home-image {
@@ -101,9 +98,11 @@ header {
     min-width: 250px;
     text-align: center;
 }
-.home-text{
+
+.home-text {
     animation: text 1s ease-in-out forwards;
 }
+
 @keyframes text {
     0% {
         transform: translatex(250px);
@@ -125,19 +124,18 @@ header {
 @keyframes img {
     0% {
         transform: translatex(-250px);
-        
     }
     100% {
         transform: translatex(0);
     }
 }
+
 .about,
 .projects,
 .contact {
     padding: 2rem 1rem;
     text-align: center;
 }
-
 
 .projects {
     padding: 2rem 1rem;
@@ -150,7 +148,6 @@ header {
     margin-bottom: 1.5rem;
     color: #333;
 }
-
 
 .project-grid {
     display: grid;
@@ -224,7 +221,6 @@ header {
     color: #fa85bc;
 }
 
-
 .buttons a.demo {
     background: #f39c12;
     color: #fff;
@@ -234,7 +230,6 @@ header {
     background: #d88a0b;
     border-color: #f39c12;
 }
-
 
 .contact {
     text-align: center;
@@ -279,7 +274,6 @@ header {
         width: 50px;
         font-size: 25px;
     }
- 
     .nav-links {
         flex-direction: column;
         text-align: center;
@@ -307,7 +301,6 @@ header {
     .navbar {
         flex-direction: column;
         align-items: center;
-      
     }
     .logo {
         margin-bottom: 1rem;
@@ -319,12 +312,13 @@ header {
         gap: 0.5rem;
     }
     .home-text {
-        
-        min-width:250px;}
-        .home-text p, .about p {
-            font-size: 0.9rem;}
+        min-width: 250px;
+    }
+    .home-text p,
+    .about p {
+        font-size: 0.9rem;
+    }
 }
-
 
 .footer {
     background: #f4f4f4;
@@ -334,12 +328,9 @@ header {
     margin-top: 2rem;
 }
 
-
-
 @media (max-width: 768px) {
     .home-content {
         flex-direction: column;
-
     }
     .home-text h1 {
         font-size: 2rem;
@@ -349,7 +340,6 @@ header {
         height: 120px;
     }
 }
-
 
 .Contact .social {
     position: absolute;

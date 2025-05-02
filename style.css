@@ -151,7 +151,8 @@ header {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* repeat(auto-fit, minmax(250px, 1fr)) */
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
 }
 
@@ -177,10 +178,11 @@ header {
 }
 
 .project-card h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #333;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     text-align: center;
+    padding:20px;
 }
 
 .buttons {
@@ -188,7 +190,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 50px;
+    margin-block: 20px;
 }
 
 .buttons a {
